@@ -89,12 +89,25 @@ transform: translate(99px,-70px);
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    border: 5px solid greenyellow;
+    /* background: #ccc; */
+    display: flex;
     text-decoration: none;
     font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    text-shadow: -2px -2px 5px rgb(183, 182, 182);
+    filter: drop-shadow(4px 4px 10px #fff);
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.2),
+    10px 15px 10px rgba(0, 0, 0, 0.2),
+    15px 20px 20px rgba(0, 0, 0, 0.2),
+    inset -10px -10px 15px rgba(225,225,255,0.9);
+    user-select: none;
 transform: translate(99px,-70px);
 
 
@@ -108,17 +121,26 @@ transform: translate(99px,-70px);
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 8px solid rgb(1, 80, 1);
-display: flex !important;
-justify-content: center;
-align-items: center;
-font-size: 80px;
-text-decoration: none;
-background-color: green;
-font-family: sans-serif;
-color: white;
-border-top-color: red;
-border-bottom-color: red;
+    position: relative;
+    text-decoration: none;
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: sans-serif;
+    /* background: #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    text-shadow: -2px -2px 5px #fff;
+    filter: drop-shadow(4px 4px 10px #fff);
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.2),
+    15px 25px 10px rgba(0, 0, 0, 0.2),
+    15px 20px 20px rgba(0, 0, 0, 0.2),
+    inset -10px -10px 15px rgba(225,225,255,0.9);
+    user-select: none;
+
 }
 .tasbeh:active{
 color: red
